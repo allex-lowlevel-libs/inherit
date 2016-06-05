@@ -1,0 +1,23 @@
+{
+  "name": "allex_inheritlowlevellib",
+  "version": "1.0.0",
+  "description": "JavaScript inheritance handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-lowlevel-libs/inherit.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "inheritance"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-lowlevel-libs/inherit/issues"
+  },
+  "homepage": "https://github.com/allex-lowlevel-libs/inherit#readme"
+}
