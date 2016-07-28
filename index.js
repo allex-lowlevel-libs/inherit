@@ -1,4 +1,4 @@
-function createLib(has,isFunction,isString){
+function createLib(isFunction,isString){
   'use strict';
   function inherit (child, parnt) {
     if (!isFunction(child)){
@@ -24,10 +24,11 @@ function createLib(has,isFunction,isString){
       throw new Error('Parent provided to "inheritMethods" is not a function.'); 
     }
     if (!isString(name)){
-      throw new Error(name + 'Method name provided to "inheritMethods" is not a string. Method name must be a string.');
+      throw new Error('Method name provided to "inheritMethods" is not a string. Method name must be a string.');
     }
-    if (!has(parnt.prototype,name)){
-      throw new Error('Parent class does not have method ' + name + '.');
+    if (!isFunction(parnt.prototype[name])){
+      //console.error(el);
+      throw new Error('Parent object does not have method ' + name + ' or property ' + name + ' of passed object is not a function.');
     }
     chld.prototype[name] = parnt.prototype[name];
   }

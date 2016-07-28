@@ -1,6 +1,6 @@
 var expect = require('chai').expect,
   checks = require('allex_checkslowlevellib'),
-  lib = require('..')(checks.has,checks.isFunction,checks.isString);
+  lib = require('..')(checks.isFunction,checks.isString);
 
 describe('Testing \'Inherit\' lib', function(){
   it('inherit', function(){
