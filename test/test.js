@@ -36,8 +36,9 @@ describe('Testing \'Inherit\' lib', function(){
   it('inheritMethods', function(){
     var chld = -1; 
     var parnt = -1;
+    var methodName;
     expect(lib.inheritMethods.bind(lib,chld,parnt)).to.throw(Error,/with no methods to inherit/);
-    var methodName = true;
+    methodName = true;
     expect(lib.inheritMethods.bind(lib,chld,parnt,methodName)).to.throw(Error,/is not a function/);
     chld = function(){};
     expect(lib.inheritMethods.bind(lib,chld,parnt,methodName)).to.throw(Error,/is not a function/);
