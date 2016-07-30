@@ -1,6 +1,6 @@
 {
   "name": "allex_inheritlowlevellib",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "JavaScript inheritance handlers",
   "main": "index.js",
   "scripts": {
