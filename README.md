@@ -54,4 +54,9 @@ var c = new C();
 c.print();
 
 ```
+To run the test suite, first install the dependencies, then run `npm test`:
 
+```bash
+$ npm install
+$ npm test
+```
