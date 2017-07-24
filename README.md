@@ -1,18 +1,19 @@
 # inherit
-This is a simple lib that exports just two methods:
+
+This is a simple lib that exports just two methods: *inherit* and *interitMethods*
 
 ## Installation
 
 npm install allex_inheritlowlevellib
 
-## inherit
+## *inherit*
 A well known JavaScript inheritance pattern. Expects two parameters:
 - First one is the child "_class_"
 - Second one is the parent "_class_"
 
 It will create the prototype of the child "_class_" according to the prototype of the parent "_class_".
 
-## inheritMethods
+## *inheritMethods*
 This function expects `2+N` parameters: 
 - First one is the child "_class_"
 - Second one is the parent "_class_"
