@@ -1,13 +1,16 @@
 # inherit
 This is a simple lib that exports just two methods:
 
+## Installation
+
+npm install allex_inheritlowlevellib
+
 ## inherit
 A well known JavaScript inheritance pattern. Expects two parameters:
 - First one is the child "_class_"
 - Second one is the parent "_class_"
 
 It will create the prototype of the child "_class_" according to the prototype of the parent "_class_".
-
 
 ## inheritMethods
 This function expects `2+N` parameters: 
@@ -17,10 +20,6 @@ This function expects `2+N` parameters:
 - and so forth
 
 Useful for mixin situations (when "implementing interfaces").
-
-## Installation
-
-npm install allex_inheritlowlevellib
 
 ## Usage
 
